@@ -41,6 +41,24 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="wallet"
+        options={{
+          title: 'Wallet',
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon name={focused ? 'wallet' : 'wallet-outline'} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="travel"
+        options={{
+          title: 'Travel',
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon name={focused ? 'airplane' : 'airplane-outline'} color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
