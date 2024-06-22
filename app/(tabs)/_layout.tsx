@@ -32,6 +32,15 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="expenses"
+        options={{
+          title: 'Expenses',
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon name={focused ? 'cash' : 'cash-outline'} color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }

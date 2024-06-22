@@ -6,11 +6,7 @@ export default function HomeScreen() {
     <View style={{ flex: 1, justifyContent:'center', alignItems:'center', backgroundColor:'#daf' }}>
       <Text>Home Screen</Text>
       <HelloWave />
-    </View>
-
-
-
-    
+    </View>    
   );
 }
 
